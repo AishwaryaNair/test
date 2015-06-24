@@ -7,11 +7,6 @@ app.controller('MainCtrl', [
         $scope.inputs = [];
 
         $scope.addPost = function () {
-            var from,to;
-            if($scope.from > $scope.to){
-                from = 0;
-                to =8760
-            }
             var formdata = {//'lat' : $scope.lat,
                             //'lon': $scope.lon,
                             'address':$scope.city,
